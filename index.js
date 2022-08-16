@@ -22,7 +22,7 @@ convertBtn.addEventListener("click", function() {
     let volumeMsg = `${inputValue} liters = ${volumeValue.toFixed(3)} gallons | ${inputValue} gallons = ${gallonsValue.toFixed(3)} liters`
     volumeEl.innerHTML = volumeMsg
     
-    let massMsg = `${inputValue} kilos = ${poundsValue.toFixed(3)} pounds | ${inputValue} pounds = ${massValue.toFixed(3)} kilos`
+    let massMsg = `${inputValue} kilos = ${massValue.toFixed(3)} pounds | ${inputValue} pounds = ${poundsValue.toFixed(3)} kilos`
     massEl.innerHTML = massMsg
 
 })
